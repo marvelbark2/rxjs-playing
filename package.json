@@ -1,0 +1,20 @@
+{
+  "name": "rxjs-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^7.2.0"
+  },
+  "scripts": {
+    "build": "webpack -w",
+    "serve": "node index.js",
+    "serve:api": "json-server db.json"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3",
+    "static-server": "^2.2.1",
+    "webpack": "^5.42.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
